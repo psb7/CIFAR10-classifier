@@ -8,11 +8,11 @@ Python version > = 3.6
 pip install torch
 pip install torchvision
 pip install numpy
-pip install matplotlib   # just needed for evaluation
+pip install matplotlib   
 ```
 
 ## Results
 
 |  | Custom network | ResNet 18 (finetuned) | ResNet18 (frozen convnet) |
 |---|--------|------------|---------------|
-|Accuracy( 30 epochs)| 62.8% | 77.85% | 36.63| 
+|Accuracy( 30 epochs)| 62.8% | 77.85% | 36.63%| 
